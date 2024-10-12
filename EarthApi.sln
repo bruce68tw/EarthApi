@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EarthApi", "EarthApi.csproj", "{D491EA6D-E5C4-40B0-A2D0-3F83C2B4F2B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Base", "..\Base\Base\Base.csproj", "{0E75BB66-4C60-4041-B8AE-60EA25F31350}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseApi", "..\Base\BaseApi\BaseApi.csproj", "{691E25DA-708F-4DB7-A085-973B0F378F42}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EarthLib", "..\EarthLib\EarthLib.csproj", "{BBA0CAE6-0253-41E5-9CB6-1A7240A31251}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug-IP|Any CPU = Debug-IP|Any CPU
+		Debug-Local|Any CPU = Debug-Local|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D491EA6D-E5C4-40B0-A2D0-3F83C2B4F2B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D491EA6D-E5C4-40B0-A2D0-3F83C2B4F2B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D491EA6D-E5C4-40B0-A2D0-3F83C2B4F2B2}.Debug-IP|Any CPU.ActiveCfg = Debug|Any CPU
+		{D491EA6D-E5C4-40B0-A2D0-3F83C2B4F2B2}.Debug-IP|Any CPU.Build.0 = Debug|Any CPU
+		{D491EA6D-E5C4-40B0-A2D0-3F83C2B4F2B2}.Debug-Local|Any CPU.ActiveCfg = Debug|Any CPU
+		{D491EA6D-E5C4-40B0-A2D0-3F83C2B4F2B2}.Debug-Local|Any CPU.Build.0 = Debug|Any CPU
+		{D491EA6D-E5C4-40B0-A2D0-3F83C2B4F2B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D491EA6D-E5C4-40B0-A2D0-3F83C2B4F2B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E75BB66-4C60-4041-B8AE-60EA25F31350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E75BB66-4C60-4041-B8AE-60EA25F31350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E75BB66-4C60-4041-B8AE-60EA25F31350}.Debug-IP|Any CPU.ActiveCfg = Debug-Local|Any CPU
+		{0E75BB66-4C60-4041-B8AE-60EA25F31350}.Debug-IP|Any CPU.Build.0 = Debug-Local|Any CPU
+		{0E75BB66-4C60-4041-B8AE-60EA25F31350}.Debug-Local|Any CPU.ActiveCfg = Debug-Local|Any CPU
+		{0E75BB66-4C60-4041-B8AE-60EA25F31350}.Debug-Local|Any CPU.Build.0 = Debug-Local|Any CPU
+		{0E75BB66-4C60-4041-B8AE-60EA25F31350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E75BB66-4C60-4041-B8AE-60EA25F31350}.Release|Any CPU.Build.0 = Release|Any CPU
+		{691E25DA-708F-4DB7-A085-973B0F378F42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{691E25DA-708F-4DB7-A085-973B0F378F42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{691E25DA-708F-4DB7-A085-973B0F378F42}.Debug-IP|Any CPU.ActiveCfg = Debug-IP|Any CPU
+		{691E25DA-708F-4DB7-A085-973B0F378F42}.Debug-IP|Any CPU.Build.0 = Debug-IP|Any CPU
+		{691E25DA-708F-4DB7-A085-973B0F378F42}.Debug-Local|Any CPU.ActiveCfg = Debug-Local|Any CPU
+		{691E25DA-708F-4DB7-A085-973B0F378F42}.Debug-Local|Any CPU.Build.0 = Debug-Local|Any CPU
+		{691E25DA-708F-4DB7-A085-973B0F378F42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{691E25DA-708F-4DB7-A085-973B0F378F42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBA0CAE6-0253-41E5-9CB6-1A7240A31251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBA0CAE6-0253-41E5-9CB6-1A7240A31251}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBA0CAE6-0253-41E5-9CB6-1A7240A31251}.Debug-IP|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBA0CAE6-0253-41E5-9CB6-1A7240A31251}.Debug-IP|Any CPU.Build.0 = Debug|Any CPU
+		{BBA0CAE6-0253-41E5-9CB6-1A7240A31251}.Debug-Local|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBA0CAE6-0253-41E5-9CB6-1A7240A31251}.Debug-Local|Any CPU.Build.0 = Debug|Any CPU
+		{BBA0CAE6-0253-41E5-9CB6-1A7240A31251}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBA0CAE6-0253-41E5-9CB6-1A7240A31251}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05286E2A-266D-4D4B-9F56-E9217FC5D423}
+	EndGlobalSection
+EndGlobal
