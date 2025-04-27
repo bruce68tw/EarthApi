@@ -82,7 +82,7 @@ order by a.Id
                     new() { Fid = "Creator" },
                 },
             };
-            return JsonsToCnt(await new CrudReadSvc().GetRowsA(dto, findJson, 300));
+            return JsonsToCnt(await new CrudReadSvc().GetRowsA(Ctrl, dto, findJson, false));
         }
 
         /// <summary>
